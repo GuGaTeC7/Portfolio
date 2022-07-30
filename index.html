@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Portifólio | Gustavo Luiz</title>
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="index.html">
+            <h1>Gustavo <span>Luiz</span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#sobre" data-after="Sobre">Sobre</a></li>
+            <li><a href="#projetos" data-after="Projetos">Projetos</a></li>
+            <li><a href="#habilidades" data-after="Habilidades">Habilidades</a></li>
+            <li><a href="#contato" data-after="Contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div class="boas">
+        <h1>Bem-vindo<span></span></h1>
+        <h1>ao meu<span></span></h1>
+        <h1>Portfólio <span></span></h1>
+      </div>
+    </div>
+  </section>
+  <!-- Fim Hero Section  -->
+
+  <!-- Sobre Section -->
+  <section id="sobre">
+    <div class="sobre container">
+        <div class="col-left" data-aos="">
+            <div class="sobre-img">
+            <img src="img/minhaFoto.jpg" alt="fotoPerfil">           
+            </div>
+        </div>
+
+        <div class="col-right" data-aos="">
+            <h1 class="section-title">Gustavo Luiz da Silva</h1>
+            <h2 class="prof">Programador Júnior <span>&</span> Web Designer</h2>
+            <p>Sou um Desenvolvedor focado e atento a detalhes, empenhado em elaborar sistemas e resolver problemas técnicos, sempre disposto a aprender! Acredito que posso compensar a falta de experiência com dedicação e empenho.</p>
+            <ul class="theme-list">
+                <li><b>Localização: </b> São Paulo, São Paulo</li>
+                <li><b>Idade:</b> 18</li>
+                <li><b>LinkedIn: </b><a href="https://www.linkedin.com/in/gustavo-luiz-138aba20a/" target="_blank" style="color:#fff">Gustavo Luiz</a></li>
+                <li><b>GitHub: </b><a href="https://github.com/GuGaTeC7" target="_blank" style="color:#fff">GuGaTeC7</a></li>
+            </ul>
+            <a href="Gustavo Luiz da Silva.pdf" class="cta" download="CV Gustavo.pdf">Donwload CV</a>
+        </div>
+    </div>
+  </section>
+  <!-- Fim Sobre Section -->
+
+  <!-- Projetos Section -->
+  <section id="projetos">
+    <div class="services container">
+      <div class="projetos-top">
+        <h1 class="section-title">PROJETOS</h1>
+      </div>
+
+      <div class="service-bottom">
+        
+          <div class="service-item" id="card" data-aos="flip-right">
+            <div class="icon"><img src="img/cinemaPW.png" /></div>
+          <h2>CineBR</h2>
+          <p>Site que desenvolvi para uma atividade com a temática de cinema.<span id="pontos">..</span> <span id="mais">Quando eu desenvolvi esse site ainda estava no começo do 
+            curso, mas já havia adquirido uma breve noção sobre programação HTML e conceitos de CSS. Por questões de praticidade resolvi 
+            desenvolver o site apartir de um template de um site aleatório, e apenas fui configurando textos(h1, h2, p...) e estilizando o CSS para que o
+            site ficasse com uma cara de cinema. </span><a onclick="lerMais()" id="lerMais" class="lerMais"> Ler mais</a></p>
+          
+          <a href="#" class="visuRapid" onclick="toggle();">visualização rápida <i class="fa-regular fa-eye"></i></a>
+          <a href="https://gugatec7.github.io/Sites-ETEC/CinemaPW" class="ctaAcess" target="_blank">Acessar</a>
+          
+        </div>
+        <div class="service-item" id="card1" data-aos="flip-left">
+          <div class="icon"><img src="img/gugaBanks.png" /></div>
+          <h2>GugaBanks</h2>
+          <p>Site desenvolvido com a proposta de ser um Banco Digital.<span id="pontos1">..</span> <span id="mais1">Nesse projeto estava focado em apenas testar as 
+            funcionalidades do Bootstrap, por conta disso ele não é muito complexo. </span><a onclick="lerMais1()" id="lerMais1" class="lerMais"> Ler mais</a> </p>
+
+          <a href="#" class="visuRapid" onclick="toggle1();">visualização rápida <i class="fa-regular fa-eye"></i></a>
+          <a href="https://gugatec7.github.io/Sites-ETEC/GugaBanks/index.html" class="ctaAcess" target="_blank">Acessar</a>
+
+        </div>
+        <div class="service-item" id="card2" data-aos="flip-right">
+          <div class="icon"><img src="img/pacMan.png" /></div>
+        <h2>PacMan</h2>
+        <p>Um jogo simples desenvolvido apenas com HTML, CSS E JAVASCRIPT.<span id="pontos2">..</span> <span id="mais2">Realizei esse projeto em aula junto com o professor. 
+          Utilizamos o jogo "T-Rex Game" ou "Chrome Dino"(mais conhecido como "jogo do Dinossauro") como referência para desenvolver o game. </span><a onclick="lerMais2()" id="lerMais2" class="lerMais"> Ler mais</a></p>
+
+        <a href="#" class="visuRapid" onclick="toggle2();">visualização rápida <i class="fa-regular fa-eye"></i></a>
+        <a href="https://gugatec7.github.io/Sites-ETEC/jogoPacman/index.html" class="ctaAcess" target="_blank">Acessar</a>
+
+        </div>
+        <div class="service-item" id="card3" data-aos="flip-left">
+          <div class="icon"><img src="img/neWorld.png"/></div>
+        <h2>NeWorld</h2>
+        <p>Site que criei para o meu TCC, na qual o tema era uma empresa desenvolvedora de jogos.<span id="pontos3">..</span> <span id="mais3">O tema principal foi um jogo educativo
+           chamado "EdUny", e foi me passada a função de desenvolver o site sozinho. Como o site era apenas algo complementar, desenvolvi o site pensando em ser apenas uma vitrine, com a intenção de sermos uma 
+           empresa desenvolvedora de jogos. </span><a onclick="lerMais3()" id="lerMais3" class="lerMais"> Ler mais</a> </p>
+
+        <a href="#" class="visuRapid" onclick="toggle3();">visualização rápida <i class="fa-regular fa-eye"></i></a>
+        <a href="https://gugatec7.github.io/NeWorld/index.html" class="ctaAcess" target="_blank">Acessar</a>
+
+        </div>
+      </div>
+
+      <!-- Iframes -->
+      
+      <div class="cinema">
+        <iframe width="960" height="515" src="https://gugatec7.github.io/Sites-ETEC/CinemaPW" title="Cinema" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <a href class="btnClose" id="close">✖</a>
+      </div>
+
+      <div class="banco">
+        <iframe width="960" height="515" src="https://gugatec7.github.io/Sites-ETEC/GugaBanks/index.html" title="banco" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <a href class="btnClose" id="close">✖</a>
+      </div>
+
+      <div class="pacMan">
+        <iframe width="960" height="515" src="https://gugatec7.github.io/Sites-ETEC/jogoPacman/index.html" title="pacMan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <a href class="btnClose" id="close">✖</a>
+          <p class="dica">(clique na tela e use a barra de espaço para pular)</p>
+          <p class="dica2">("F5" reinicia a partida)</p>
+          <p class="dica3">(Acesse o site para uma experiência melhor!)</p>
+      </div>
+
+      <div class="neWorld">
+        <iframe width="960" height="515" src="https://gugatec7.github.io/NeWorld/index.html" title="neWorld" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <a href class="btnClose" id="close">✖</a>
+      </div>
+      
+      </div>
+    </div>
+  </section>  
+  <!-- End Service Section -->
+
+  <!-- Habilidades Section -->
+  <section id="habilidades">
+    <div class="habilidades container">
+      <div class="service-top" data-aos="zoom-in">
+        <h1 class="section-title-hab">Habilidades</h1>
+      </div>
+
+        <div class="organizar" data-aos="zoom-in">
+          <div class="col-left">
+
+            <h1 class="sub-title-html">HTML</h1>
+            <img src="img/Martz90-Hex-Html-5.ico" alt="icon" class="icon-hab">
+            <div class="barra-html">
+                <div>
+                  <h1 class="porcentagem">90%</h1>
+                </div>
+              </div>
+
+            <h1 class="sub-title-css">CSS</h1>
+            <img src="img/Martz90-Hex-Css-3.ico" alt="icon" class="icon-hab-css">
+              <div class="barra-css">
+                <div>
+                  <h1 class="porcentagem">80%</h1>
+                </div>
+              </div>
+
+            <h1 class="sub-title-js">JAVASCRIPT</h1>
+            <img src="img/javascript-icon-png-23.png" alt="icon" class="icon-hab-js">
+              <div class="barra-js">
+                <div>
+                  <h1 class="porcentagem">40%</h1>
+                </div>
+              </div>
+
+            <h1 class="sub-title-php">PHP</h1>
+            <img src="img/php.png" alt="icon" class="icon-hab-php">
+              <div class="barra-php">
+                <div>
+                  <h1 class="porcentagem">60%</h1>
+                </div>
+              </div>
+          
+          </div>
+
+          <div class="col-right">
+            
+            <h1 class="sub-title-py">Python</h1>
+            <img src="img/Cornmanthe3rd-Plex-Other-python.ico" alt="icon" class="icon-hab-py">
+              <div class="barra-py">
+                <div>
+                  <h1 class="porcentagem">60%</h1>
+                </div>
+              </div>
+
+              <h1 class="sub-title-java">Java</h1>  
+              <img src="img/Alecive-Flatwoken-Apps-Java.svg" alt="" class="icon-hab-java">
+              <div class="barra-java">
+                <div>
+                  <h1 class="porcentagem">40%</h1>
+                </div>
+              </div>
+
+              <h1 class="sub-title-sql">MySQL</h1>  
+              <img src="img/logo-mysql-26353.png" alt="" class="icon-hab-sql">
+              <div class="barra-sql">
+                <div>
+                <h1 class="porcentagem">70%</h1>
+                </div>
+              </div>
+
+            <h1 class="sub-title-ps">Photoshop</h1>
+            <img src="img/photoshop-png-logo-3090.png" alt="" class="icon-hab-ps">
+              <div class="barra-ps">
+                <div>
+                  <h1 class="porcentagem">50%</h1>
+                </div>
+              </div>
+          
+          </div>
+        </div>
+
+          <div class="animate" data-aos="zoom-in">
+            <h1 class="sub-title-git">Git / GitHub</h1>
+            <img src="img/gits.png" alt="" class="icon-hab-git">
+              <div class="barra-git">
+                <div>
+                  <h1 class="porcentagem">55%</h1>
+                </div>
+              </div>
+          </div>
+    </div>
+  </section>
+
+  <!-- Fim Habilidades Section-->
+  
+  <!-- Contato Section-->
+  <section id="contato">
+    <div class="contato container">
+      <div class="contato-top" data-aos="zoom-out">
+      <h1 class="section-title">Contato</h1>
+      
+      <form action="https://formsubmit.co/gustavoluizsilva245@gmail.com" method="POST" class="form">
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name" placeholder="Escreva seu nome..." required>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Escreva seu email..." required>
+        <label for="message">Mensagem:</label>
+        <textarea name="message" id="message" placeholder="Escreva uma mensagem... (me contrata por favor! 😅)" required></textarea>
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <button type="submit" class="btnForm">Enviar</button>
+      </form>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Fim Contato Section -->
+  
+  <!-- Footer Section -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <a href="index.html"><h1 style="margin-bottom: 12px;">Gustavo <span>Luiz</span></h1></a>
+      </div>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.instagram.com/gug4_____/" target="_blank"><img src="img/icons8-instagram-logo-100.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/GuGaTeC7" target="_blank"><img src="img/icons8-github-logo-100.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/gustavo-luiz-138aba20a/" target="_blank"><img src="img/icons8-linkedin-logo-100.png"/></a>
+        </div>
+      </div>
+      <p>Copyright © 2022 Gustavo Luiz. All rights reserved</p>
+    </div>
+
+  </section>
+  <!-- Fim Footer Section -->
+
+  <script src="app.js"></script>
+  <script src="https://kit.fontawesome.com/fc2ad27327.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200
+    });
+  </script>
+</body>
+
+</html>
