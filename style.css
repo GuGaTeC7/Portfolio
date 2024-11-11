@@ -483,7 +483,7 @@ p {
 	opacity: 1;
 }
 
-.pacMan {
+.futOver {
 	position: fixed;
 	top: 50%;
 	left: 50%;
@@ -498,7 +498,7 @@ p {
 	visibility: hidden;
 	opacity: 0;
 }
-.pacMan.active{
+.futOver.active{
 	visibility: visible;
 	opacity: 1;
 }

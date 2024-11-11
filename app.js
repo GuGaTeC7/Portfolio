@@ -2,6 +2,7 @@ const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger'
 const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
 const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
 const header = document.querySelector('.header.container');
+const btnClose = document.getElementById('close');
 
 hamburger.addEventListener('click', () => {
 	hamburger.classList.toggle('active');
@@ -35,7 +36,7 @@ function toggle1(){
 }
 
 function toggle2(){
-	var pacMan = document.querySelector(".pacMan")
+	var futOver = document.querySelector(".futOver")
 	pacMan.classList.toggle("active")
 }
 
@@ -43,6 +44,10 @@ function toggle3(){
 	var neWorld = document.querySelector(".neWorld")
 	neWorld.classList.toggle("active")
 }
+
+btnClose.addEventListener('click', () => {
+
+});
 
 function lerMais() {
 	var pontos = document.getElementById("pontos")
